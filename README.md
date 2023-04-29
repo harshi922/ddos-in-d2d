@@ -3,14 +3,14 @@
 Link to our Simulated Dataset:
 https://drive.google.com/file/d/1-2_nuhtI-C3NM37nSXart8DFVT5rGtha/view?usp=sharing
 
-Data Directory:
+Data Directory:<br />
 Contains our custom dataset with the attacks that we have simulated. We use Wireshark to perform packet capture and pass the resulting .pcap file through CiCFlowMeter to mimic the attacks’ format present in the CiCDoS2019 dataset. 
 
-Models Directory:
+Models Directory:<br />
 Contains the model along with the weights that were used for each layer in .h5 files.
 
-Training Directory:
-Contains the notebook which shows our training process. We create separate labels for each layer based on how the attack is categorized. The layers are explained along with their labels below:
+Training Directory:<br />
+Contains the notebook which shows our training process. We create separate labels for each layer based on how the attack is categorized. The layers are explained along with their labels below:<br />
 Layer 1:
 Layer 1 was a binary classifier which was trained to classify attack and benign values.
 | Class	 | Label | 
