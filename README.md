@@ -11,14 +11,14 @@ Contains the model along with the weights that were used for each layer in .h5 f
 
 Training Directory:<br />
 Contains the notebook which shows our training process. We create separate labels for each layer based on how the attack is categorized. The layers are explained along with their labels below:<br />
-Layer 1:
+Layer 1:<br />
 Layer 1 was a binary classifier which was trained to classify attack and benign values.
 | Class	 | Label | 
 |--------|-------|
 | Benign |	0    |
 | Attack |	1    |
 
-Layer 2:
+Layer 2:<br />
 Layer 2 was a multi-class classifier which was trained to classify DDoS and other non-DDoS attacks.
 | Class |	Label |
 |-------|-------|
@@ -27,7 +27,7 @@ Layer 2 was a multi-class classifier which was trained to classify DDoS and othe
 | MITM	| 2 |
 | Dictionary|	3 |
 
-Layer 3:
+Layer 3:<br />
 Layer 3 was a multi-class DDoS attack classifier.
 Class	Label
 TFTP	0
