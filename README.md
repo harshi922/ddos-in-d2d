@@ -14,6 +14,7 @@ Contains the notebook which shows our training process. We create separate label
 Layer 1:
 Layer 1 was a binary classifier which was trained to classify attack and benign values.
 | Class	 | Label | 
+|--------|-------|
 | Benign |	0    |
 | Attack |	1    |
 
