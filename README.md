@@ -40,3 +40,6 @@ Layer 3 was a multi-class DDoS attack classifier.
 |Hulk	|6|
 |Rudy	|7|
 |GoldenEye|	8|
+
+Inference.py: <br />
+Contains code that allows you to perform prediction with the option to use each layer seperately or with all layers as a whole.
