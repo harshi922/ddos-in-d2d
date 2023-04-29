@@ -20,11 +20,12 @@ Layer 1 was a binary classifier which was trained to classify attack and benign 
 
 Layer 2:
 Layer 2 was a multi-class classifier which was trained to classify DDoS and other non-DDoS attacks.
-Class	Label
-DDoS	0
-SQLi	1
-MITM	2
-Dictionary	3
+| Class |	Label |
+|-------|-------|
+| DDoS |	0     |
+| SQLi |	1 |
+| MITM	| 2 |
+| Dictionary|	3 |
 
 Layer 3:
 Layer 3 was a multi-class DDoS attack classifier.
