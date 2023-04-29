@@ -13,9 +13,9 @@ Training Directory:
 Contains the notebook which shows our training process. We create separate labels for each layer based on how the attack is categorized. The layers are explained along with their labels below:
 Layer 1:
 Layer 1 was a binary classifier which was trained to classify attack and benign values.
-Class	Label
-Benign	0
-Attack	1
+| Class	 | Label | 
+| Benign |	0    |
+| Attack |	1    |
 
 Layer 2:
 Layer 2 was a multi-class classifier which was trained to classify DDoS and other non-DDoS attacks.
