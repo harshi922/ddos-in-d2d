@@ -29,13 +29,14 @@ Layer 2 was a multi-class classifier which was trained to classify DDoS and othe
 
 Layer 3:<br />
 Layer 3 was a multi-class DDoS attack classifier.
-Class	Label
-TFTP	0
-UDP+SSDP	1
-LDAP	2
-Netport	3
-Syn	4
-MSSQL	5
-Hulk	6
-Rudy	7
-GoldenEye	8
+|Class|	Label|
+|-----|------|
+|TFTP	|0|
+|UDP+SSDP|	1|
+|LDAP	|2|
+|Netport|	3|
+|Syn	|4|
+|MSSQL|	5|
+|Hulk	|6|
+|Rudy	|7|
+|GoldenEye|	8|
