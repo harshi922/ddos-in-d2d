@@ -6,6 +6,23 @@ https://drive.google.com/file/d/1-2_nuhtI-C3NM37nSXart8DFVT5rGtha/view?usp=shari
 Data Directory:<br />
 Contains our custom dataset with the attacks that we have simulated. We use Wireshark to perform packet capture and pass the resulting .pcap file through CiCFlowMeter to mimic the attacks’ format present in the CiCDoS2019 dataset. 
 
+The complete dataset was labelled as follows:
+|Class|	Label|
+|-----|------|
+|Benign	|0|
+|TFTP|1|
+|UDP+SSDP|	2|
+|LDAP	|3|
+|Syn	|4|
+|MSSQL|	5|
+|Hulk	|6|
+|Rudy	|7|
+|GoldenEye|	8|
+|HTTP|9|
+|SQLi|10|
+|MITM|11|
+|Dictionary|12|
+
 Models Directory:<br />
 Contains the model along with the weights that were used for each layer in .h5 files.
 
@@ -35,7 +52,7 @@ Layer 3 was a multi-class DDoS attack classifier.
 |TFTP	|0|
 |UDP+SSDP|	1|
 |LDAP	|2|
-|Netport|	3|
+|NetBIOS + Portmap|	3|
 |Syn	|4|
 |MSSQL|	5|
 |Hulk	|6|
