@@ -11,6 +11,7 @@ Contains the model along with the weights that were used for each layer in .h5 f
 
 Training Directory:<br />
 Contains the notebook which shows our training process. We create separate labels for each layer based on how the attack is categorized. The layers are explained along with their labels below:<br />
+<br />
 Layer 1:<br />
 Layer 1 was a binary classifier which was trained to classify attack and benign values.
 | Class	 | Label | 
