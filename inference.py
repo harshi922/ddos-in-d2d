@@ -4,7 +4,7 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 
-class HMLM:
+class DHMLM:
     def __init__(self):
         self.l1 = keras.models.load_model('models/layer1.h5')
         self.l2 = keras.models.load_model('models/layer2.h5')
@@ -78,7 +78,7 @@ class HMLM:
 
 def main():
 
-    model = HMLM()
+    model = DHMLM()
     choice = sys.argv[1]
     data_path = sys.argv[2]
     output_path = sys.argv[3]
