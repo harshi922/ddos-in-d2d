@@ -6,7 +6,7 @@ https://drive.google.com/file/d/1-2_nuhtI-C3NM37nSXart8DFVT5rGtha/view?usp=shari
 Data Directory:<br />
 Contains our custom dataset with the attacks that we have simulated. We use Wireshark to perform packet capture and pass the resulting .pcap file through CiCFlowMeter to mimic the attacks’ format present in the CiCDoS2019 dataset. 
 
-The complete dataset was labelled as follows:
+The complete dataset (Custom_dataset) was labelled as follows:
 |Class|	Label|
 |-----|------|
 |Benign	|0|
