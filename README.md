@@ -59,8 +59,8 @@ Layer 3 was a multi-class DDoS attack classifier.
 |Rudy	|7|
 |GoldenEye|	8|
 
-Testing Directory: <br />
-Contains the LSTM model that we trained and tested on our custom dataset to compare the performance with our HMLM.
+double_filter.py: <br />
+Contains the double feature selection mechanism that we have used. We use a correlation based feature selector followed by k best features ranked by the Mutual Information. In our model we have used the 20 best features as it has given us optimum performance. 
 
 Inference.py: <br />
 Contains code that allows you to perform prediction with the option to use each layer seperately or with all layers as a whole.
